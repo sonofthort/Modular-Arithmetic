@@ -17,6 +17,12 @@ Reference:
 - http://norayr.am/papers/divmodnote.pdf
 - https://medium.com/@krmayank/modulus-of-a-negative-number-a18decf3773e
 
+# Negative numbers
+The following are derived from the floor/ceil relationship:
+- $`-a \bmod m = m \lceil a/m \rceil - a`$
+- $`a \bmod{-m} = a - m \lceil a/m \rceil`$
+- $`-a \bmod{-m} = m \lfloor a/m \rfloor - a`$
+
 # Modulus conversion
 For real numbers:
 - $`a \bmod m = (a x \bmod{m x}) / x`$
