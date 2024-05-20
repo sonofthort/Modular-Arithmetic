@@ -63,4 +63,4 @@ Proof:
   - $`(a b + n m b) \bmod m = (a b + n m b \bmod m) \bmod m`$
   - $`n m b \bmod m = 0`$
   - $`(a b + n m b) \bmod m = a b \bmod m`$
-- Therefore, we can substitue $`a`$ with $`a \bmod m`$ without changing the result, hence $`a b \bmod m = (a \bmod m) b \bmod m`$
+- Therefore, $`a`$ can be substituted with $`a \bmod m`$
