@@ -20,8 +20,11 @@ Reference:
 # Negative numbers
 The following are derived from the floor/ceil relationship:
 - $`-a \bmod m = m \lceil a/m \rceil - a`$
+  - Result is always $`>= 0`$
 - $`a \bmod{-m} = a - m \lceil a/m \rceil`$
+  - Result is always $`<= 0`$
 - $`-a \bmod{-m} = m \lfloor a/m \rfloor - a`$
+  - Result is always $`<= 0`$
 
 # Modulus conversion
 For real numbers:
