@@ -6,7 +6,7 @@ A cheat sheet of modular arithmetic formulas which I've found useful, with exten
 For formulas which I've found elsehwere, I provide references. For formulas which I've derived and haven't yet found existing references, I provide attempted proofs. Any feedback which can help improve this article would be greatly appreciated.
 
 # Relation to floor/ceil
-The following formulas can be useful for understanding how the modulo operator behaves with negative and complex operands, and for deriving other formulas:
+The following formulas can be useful for understanding how the modulo operator behaves with negative and complex operands, and for deriving other relations:
 - $`a \bmod m = a - m \lfloor a/m \rfloor`$
 - $`a \bmod m = a + m \lceil -a/m \rceil`$
 - $`\lfloor a \rfloor = -\lceil -a \rceil`$
