@@ -30,16 +30,17 @@ The following are derived from the floor/ceil relationship:
 Given that:
 - $`\lfloor a + b i \rfloor = \lfloor a \rfloor + \lfloor b \rfloor i`$
 
-For real $`a`$ and $`b`$, the floor/ceil modulo relationships show that:
-- $`(a + b i) \bmod m = a - m \lfloor a/m \rfloor + (b - m \lfloor b/m \rfloor) i`$
+For real $`a`$ and $`b`$:
 - $`(a + b i) \bmod m = a \bmod m + (b \bmod m) i`$
 
 Proof:
 - $`(a + b i) \bmod m = (a + b i) - m \lfloor (a + b i)/m \rfloor`$
-- $`= a + b i - m (\lfloor a/m + b i/m \rfloor)`$
-- $`= a + b i - m (\lfloor a/m \rfloor + \lfloor b/m \rfloor i)`$
-- $`= a - m \lfloor a/m \rfloor + b i - m \lfloor b/m \rfloor i`$
-- $`= a - m \lfloor a/m \rfloor + (b - m \lfloor b/m \rfloor) i`$
+  - $`a + b i - m (\lfloor a/m + b i/m \rfloor)`$
+  - $`a + b i - m (\lfloor a/m \rfloor + \lfloor b/m \rfloor i)`$
+  - $`a - m \lfloor a/m \rfloor + b i - m \lfloor b/m \rfloor i`$
+  - $`a - m \lfloor a/m \rfloor + (b - m \lfloor b/m \rfloor) i`$
+- $`a - m \lfloor a/m \rfloor = a \bmod m`$
+- $`(b - m \lfloor b/m \rfloor) i = (b \bmod m) i`$
 
 # Modulus conversion
 For real numbers:
