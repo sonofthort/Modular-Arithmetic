@@ -1,5 +1,5 @@
 # Modular-Arithmetic
-A cheat sheet of modular arithmetic formulas which I've found useful, with extension to the real numbers.
+A cheat sheet of modular arithmetic formulas which I've found useful, with extension to the real, negative, imaginary, and complex numbers.
 
 ![clock2](media/clock2.png "A clock is frequently used to demonstrate the concept of modular arithmetic")
 
