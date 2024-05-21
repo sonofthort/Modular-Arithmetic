@@ -73,3 +73,7 @@ Proof:
   - $`n m b \bmod m = 0`$
   - $`(a b + n m b) \bmod m = a b \bmod m`$
 - Therefore, $`a`$ can be substituted with $`a \bmod m`$
+
+# See also
+- [Modular arithmetic (Wikipedia)](https://en.wikipedia.org/wiki/Modular_arithmetic)
+  - Contains many other useful modular arithmetic properties
