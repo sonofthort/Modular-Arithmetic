@@ -35,7 +35,7 @@ Proof:
 - $`a \bmod m = a - m \lfloor a/m \rfloor`$
 - $`(a x \bmod{m x}) / x = (a x - m x \lfloor a x/(m x) \rfloor) / x`$
 - $`(a x - m x \lfloor a x/(m x) \rfloor) / x = a - m \lfloor a/m \rfloor`$
-- (all $`x`$'s cancel out)
+- (all $`x`$'s cancel out on the right hand side)
 - The division version maps directly to the multiplication version (by using a multiplier of $`1/x`$):
   - $`y = 1/x`$
   - $`x (a / x \bmod{m / x}) = (a y \bmod{m y}) / y`$
