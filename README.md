@@ -3,7 +3,7 @@ A cheat sheet of modular arithmetic formulas which I've found useful, with exten
 
 ![clock2](media/clock2.png "A clock is frequently used to demonstrate the concept of modular arithmetic")
 
-For formulas which I've found elsehwere, I provide references. For formulas which I've derived and haven't yet found existing references, I provide attempted proofs. Any feedback which can help improve this article would be greatly appreciated.
+For formulas which I've found elsehwere, I provide references. For formulas which I've derived and haven't yet found existing references, I provide attempted proofs. Any feedback which can help improve this article would be greatly appreciated!
 
 # Relation to floor/ceil
 The following formulas can be useful for understanding how the modulo operator behaves with negative and complex operands, and for deriving other relations:
